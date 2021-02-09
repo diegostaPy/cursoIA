@@ -24,5 +24,3 @@
 <li>Parte 2: Python para el Aprendizaje de Máquina: Introducción a Numpy, Pandas y Sklearn. Codificación de variables Categóricas. Agrupamientos, Apply
  </ul>
 
-
-</ul>
