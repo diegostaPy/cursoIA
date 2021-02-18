@@ -23,4 +23,9 @@
 | **Clase 2**<ul><li>Parte 1: Visión general de un sistema inteligente:Preparación de los datos, Selección y entrenamiento de modelos, Ajuste fino del modelo.
 <li>Parte 2: Python para el Aprendizaje de Máquina: Introducción a Numpy, Pandas y Sklearn. Codificación de variables Categóricas. Agrupamientos, Apply
  </ul>
+ | **Clase 3**<ul><li>Parte 1: Regresiones:Regresión lineal: Ecuación Normal. Gradiente Descendente. Regresiones polinomiales. Curvas de aprendizaje. Regularización
+Clasificación Binaria: Regresiones Logística.Entrenamiento y función de costo. Regresión Softmax
+<li>Parte 2: Ejercicios de ejemplo en Python utilizando el Colab y Sklearn
+Implementación de clasificadores binarios con Numpy y Sklearn
+ </ul>
 
