@@ -28,4 +28,14 @@ Clasificación Binaria: Regresiones Logística.Entrenamiento y función de costo
 <li>Parte 2: Ejercicios de ejemplo en Python utilizando el Colab y Sklearn
 Implementación de clasificadores binarios con Numpy y Sklearn
  </ul>
+  | **Clase 4**<ul><li>Parte 1: SVD, PCA y EigenFaces
+
+<li>Parte 2: Ejercicios de ejemplo en Python utilizando el Colab y Sklearn
+Descomposición en valores singulares y análisis de
+componentes principales
+ </ul>
+  | **Clase 5**<ul><li>Parte 1: Redes Neuronales,Neuronas biológicas a artificiales, Perceptrón/ Perceptrón Multicapa, Entrenamiento, Ajuste fino de los hiperparámetros de las
+redes neuronales
+<li>Parte 2: Introducción al TensorFlow y Keras, Guardar/cargar pesos, Early Stopping y Extracción de pesos. Ejemplos
+ </ul>
 
