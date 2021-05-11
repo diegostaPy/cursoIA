@@ -38,4 +38,15 @@ componentes principales
 redes neuronales
 <li>Parte 2: Introducción al TensorFlow y Keras, Guardar/cargar pesos, Early Stopping y Extracción de pesos. Ejemplos
  </ul>
-
+| **Clase 6**<ul><li>Examen
+ </ul>| 
+ **Clase 7**<ul><li>Redes Convolucionales
+ </ul>
+ | **Clase 8**<ul><li>Redes Recurrentes
+ </ul>
+ | **Clase 9**<ul><li>Redes GAN
+ </ul>
+ | **Clase 10**<ul><li>Aprendizaje por Refuerzo
+ </ul>
+ | **Clase 11**<ul><li>Clustering y Algoritmos Genéticos
+ </ul>
