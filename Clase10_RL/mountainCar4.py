@@ -14,19 +14,22 @@ LEARNING_RATE = 0.1
 
 DISCOUNT = 0.95
 EPISODES = 25000
-SHOW_EVERY = 3000
-STATS_EVERY=3000
+SHOW_EVERY = 100
+STATS_EVERY=100
 DISCRETE_OS_SIZE = [20, 20]
 discrete_os_win_size = (env.observation_space.high - env.observation_space.low)/DISCRETE_OS_SIZE
 
 # Exploration settings
-epsilon = 1  # not a constant, qoing to be decayed
+epsilon = 0.1  # not a constant, qoing to be decayed
 START_EPSILON_DECAYING = 1
 END_EPSILON_DECAYING = EPISODES//2
 epsilon_decay_value = epsilon/(END_EPSILON_DECAYING - START_EPSILON_DECAYING)
 
 
-q_table = np.random.uniform(low=-2, high=0, size=(DISCRETE_OS_SIZE + [env.action_space.n]))
+i = 24000
+q_table = np.load(f"qtables/{i}-qtable.npy")
+
+#q_table = np.random.uniform(low=-2, high=0, size=(DISCRETE_OS_SIZE + [env.action_space.n]))
 
 
 def get_discrete_state(state):
@@ -130,7 +133,7 @@ ax1 = fig.add_subplot(311)
 ax2 = fig.add_subplot(312)
 ax3 = fig.add_subplot(313)
 
-i = 10
+i = 24000
 q_table = np.load(f"qtables/{i}-qtable.npy")
 
 

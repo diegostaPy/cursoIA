@@ -14,7 +14,7 @@ env = gym.make("MountainCar-v0")
 LEARNING_RATE = 0.1
 
 DISCOUNT = 0.95
-EPISODES = 100
+EPISODES = 2000
 SHOW_EVERY = 10
 
 DISCRETE_OS_SIZE = [20, 20]
@@ -23,7 +23,7 @@ discrete_os_win_size = (env.observation_space.high - env.observation_space.low)/
 # Exploration settings
 epsilon = 1  # not a constant, qoing to be decayed
 START_EPSILON_DECAYING = 1
-END_EPSILON_DECAYING = EPISODES//2
+END_EPSILON_DECAYING = EPISODES//3
 epsilon_decay_value = epsilon/(END_EPSILON_DECAYING - START_EPSILON_DECAYING)
 
 
@@ -59,8 +59,9 @@ for episode in range(EPISODES):
 
         new_discrete_state = get_discrete_state(new_state)
 
-        if episode % SHOW_EVERY == 10:
+        if episode % SHOW_EVERY == 0:
             env.render()
+            #time.sleep(1)
         #new_q = (1 - LEARNING_RATE) * current_q + LEARNING_RATE * (reward + DISCOUNT * max_future_q)
 
         # If simulation did not end yet after last step - update Q table
@@ -74,6 +75,7 @@ for episode in range(EPISODES):
 
             # And here's our equation for a new Q value for current state and action
             new_q = (1 - LEARNING_RATE) * current_q + LEARNING_RATE * (reward + DISCOUNT * max_future_q)
+          #  new_q =  current_q + LEARNING_RATE * (reward + DISCOUNT * max_future_q-current_q)
 
             # Update Q table with new Q value
             q_table[discrete_state + (action,)] = new_q

@@ -13,7 +13,7 @@ env = gym.make("MountainCar-v0")
 LEARNING_RATE = 0.1
 
 DISCOUNT = 0.95
-EPISODES = 100
+EPISODES = 1000
 SHOW_EVERY = 10
 STATS_EVERY=10
 DISCRETE_OS_SIZE = [20, 20]
@@ -61,7 +61,7 @@ for episode in range(EPISODES):
         episode_reward += reward
         new_discrete_state = get_discrete_state(new_state)
 
-        if episode % SHOW_EVERY == 10:
+        if episode % SHOW_EVERY == 0:
             env.render()
         #new_q = (1 - LEARNING_RATE) * current_q + LEARNING_RATE * (reward + DISCOUNT * max_future_q)
 
