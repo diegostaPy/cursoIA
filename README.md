@@ -17,11 +17,12 @@
 
 # Contenido
 
-| **Clase 1**<ul><li>Parte 1: Introducción a la Inteligencia Artificial: Aprendizaje de máquina y Aprendizaje Profundo. Tipos de Aprendizaje de máquina. Desafíos. Testeo y Validación. Herramientas y ejemplos: Colab, VPL
-<li>Parte 2:Listas, Tuplas, Diccionarios, zip. Manejo de archivos: CSV, texto, Imágenes. Funciones, Lambdas
+| **Clase 0**<ul><li>Introducción a Python, Curso rápido, Listas, Tuplas, Diccionarios, zip. Manejo de archivos: CSV, texto, Imágenes. Funciones, Lambdas</ul>
+| **Clase 1**<ul><li>Introducción a la Inteligencia Artificial: Aprendizaje de máquina y Aprendizaje Profundo. Tipos de Aprendizaje de máquina. Desafíos. Testeo y Validación. Herramientas y ejemplos: Colab, Vscode
+<li>Parte 2 :Python para el Aprendizaje de Máquina: Introducción a Numpy, Pandas y Sklearn.
  </ul>
 | **Clase 2**<ul><li>Parte 1: Visión general de un sistema inteligente:Preparación de los datos, Selección y entrenamiento de modelos, Ajuste fino del modelo.
-<li>Parte 2: Python para el Aprendizaje de Máquina: Introducción a Numpy, Pandas y Sklearn. Codificación de variables Categóricas. Agrupamientos, Apply
+<li>Parte 2:  Preprocesamiento: Codificación de variables Categóricas. Agrupamientos, Apply
  </ul>
  | **Clase 3**<ul><li>Parte 1: Regresiones:Regresión lineal: Ecuación Normal. Gradiente Descendente. Regresiones polinomiales. Curvas de aprendizaje. Regularización
 Clasificación Binaria: Regresiones Logística.Entrenamiento y función de costo. Regresión Softmax
