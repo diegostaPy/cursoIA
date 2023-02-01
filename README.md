@@ -1,4 +1,4 @@
-# cursoIA - FIUNA 2021
+# cursoIA - FIUNA 2023
 #Profesores:
 [Diego Stalder]
 [Enrique Paiva]
