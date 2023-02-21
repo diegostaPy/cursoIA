@@ -1,0 +1,1 @@
+ ID, fecha, hora, MP1, MP2.5, MP10, Temperatura, Humedad, Presión, Batería
