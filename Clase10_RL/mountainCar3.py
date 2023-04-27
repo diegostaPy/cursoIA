@@ -95,7 +95,7 @@ for episode in range(EPISODES):
         aggr_ep_rewards['max'].append(max(ep_rewards[-STATS_EVERY:]))
         aggr_ep_rewards['min'].append(min(ep_rewards[-STATS_EVERY:]))
         print(f'Episode: {episode:>5d}, average reward: {average_reward:>4.1f}, current epsilon: {epsilon:>1.2f}')
-        np.save(f"qtables/{episode}-qtable.npy", q_table)
+       # np.save(f"qtables/{episode}-qtable.npy", q_table)
 
     # Decaying is being done every episode if episode number is within decaying range
     if END_EPSILON_DECAYING >= episode >= START_EPSILON_DECAYING:
