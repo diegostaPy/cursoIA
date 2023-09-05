@@ -1,0 +1,29 @@
+En el siguiente cuadro se indican los datos que contiene cada columna:
+Idalumno 	Identificador del alumno numerado de 1 a n
+Cod.Asign 	Código de asignatura
+Asignatura 	Nombre de la asignatura
+Cod.Car.Sec 	Secuencia de carrera-plan al cual el alumno se matriculó
+Cod.Curso 	Curso o semestre que cursa el alumno
+Convocatoria 	Convocatoria de apertura de la asignatura
+Anho 	Período académico
+Semestre 	Semestre o ciclo del año
+Aprobado 	Indica si la asignatura fue aprobada
+Anho.Firma 	Indica el año en el que se obtuvo derecho
+Primer.Par 	Puntaje obtenido en 1er. Parcial
+Segundo.Par 	Puntaje obtenido en 2do. Parcial
+Tercer.Par 	Puntaje obtenido en 3er. Parcial (*)
+Cuarto.Par 	Puntaje obtenido en 4to. Parcial (*)
+4P_60 	Puntaje obtenido en 4to. Parcial con ponderación de 60% (*)
+AOT 	Puntaje obtenido en taller, trabajos prácticos y otros
+Asis 	Variable dicotómica de derecho por asistencia (1: sí, 0: no)
+Requisito 	Variable dicotómica de cumplimiento de requisito de cátedra (1: sí, 0: no)
+Primer.Rec 	Puntaje obtenido en 1er. Recuperatorio
+Segundo.Rec 	Puntaje obtenido en 2do. Recuperatorio
+Nota.Final 	Indica el tipo de examen final y la calificación obtenida
+periodo1 	Indica el tipo de examen del 1er. Final
+periodo2 	Indica el tipo de examen del 2do. Final
+periodo3 	Indica el tipo de examen del 3er. Final
+puntaje1 	Indica el puntaje final obtenido en el 1er. Final
+puntaje2 	Indica el puntaje final obtenido en el 2do. Final
+puntaje3 	Indica el puntaje final obtenido en el 3er. Final
+(*) Requisitos establecidos durante la emergencia sanitaria por COVID-19 para el año 2020
