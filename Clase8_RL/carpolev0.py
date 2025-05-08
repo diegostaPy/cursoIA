@@ -5,11 +5,11 @@ Spyder Editor
 This is a temporary script file.
 """
 
-import gym
+import gymnasium as gym
 import numpy as np
 import matplotlib.pyplot as plt
 
-env = gym.make('CartPole-v0')
+env = gym.make('CartPole-v1')
 
 # How much new info will override old info. 0 means nothing is learned, 1 means only most recent is considered, old knowledge is discarded
 LEARNING_RATE = 0.1
